@@ -1,0 +1,28 @@
+# Mobile App – AWN Blood Donation
+
+This directory contains the Flutter source code for the AWN Blood Donation mobile app.
+
+### Overview
+The app is built with Flutter for Android. It handles:
+- Donor & donation site authentication
+- Real-time eligibility checks
+- Blood shortage indicators
+- Appointment booking
+- Firebase sync
+- Instant ESP32 connection:
+The app automatically connects to any ESP32 device programmed with the matching UUID,
+which is pre-configured both in the Flutter app and the Arduino IDE. This eliminates the hassle of manually pairing devices.
+
+### Installation
+1. Install Flutter SDK & Android tools.
+2. Open this folder in VS Code or Android Studio.
+3. Run:
+flutter pub get
+flutter run
+
+4. Connect a physical device or use an emulator.
+
+### Structure
+- `lib/` – Main source code
+- `assets/` – Images, fonts, other media
+- `pubspec.yaml` – Dependencies
